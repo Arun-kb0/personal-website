@@ -1,0 +1,40 @@
+:root {
+  --title-font-size: 50px;
+  --title-font-weight: 700;
+  --title-font-color: #001D38;
+
+  --text-font-size: 15px;
+  --text-font-weight: 700;
+  --text-font-color: #727272;
+  --text-content-margin: 20px 0 36px;
+}
+
+.skills h2 {
+  font-size: var(--title-font-size);
+  font-weight: var(--title-font-weight);
+  color: var(--title-font-color);
+}
+
+.skills .text-content {
+  font-size: var(--text-font-size);
+  font-weight: var(--text-font-weight);
+  color: var(--text-font-color);
+  margin: var(--text-content-margin);
+
+  /* margin-top: 20px;
+  margin-bottom: 36px; */
+}
+
+
+
+.experience .section-title {
+  font-size: var(--title-font-size);
+  font-weight: var(--title-font-weight);
+  color: var(--title-font-color);
+}
+
+.experience .text-content {
+  font-size: var(--text-font-size);
+  font-weight: var(--text-font-weight);
+  margin: var(--text-content-margin);
+}
